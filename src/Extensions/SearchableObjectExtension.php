@@ -90,11 +90,6 @@ class SearchableObjectExtension extends DataExtension
      *
      * @return null
      */
-    /**
-     * Delete the linked search record if this record is deleted
-     *
-     * @return null
-     */
     public function onAfterDelete()
     {
 
